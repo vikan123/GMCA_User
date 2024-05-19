@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@id/navigate_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"/>
+    <item android:id="@id/navigate_notice"
+        android:icon="@drawable/ic_notice"
+        android:title="Notice"/>
+    <item android:id="@id/navigate_gallary"
+        android:icon="@drawable/ic_gallary"
+        android:title="Gallary"/>
+    <item android:id="@id/navigate_ebook"
+        android:icon="@drawable/ic_ebook"
+        android:title="ebook"/>
+    <item android:id="@id/navigate_faculty"
+        android:icon="@drawable/ic_faculty"
+        android:title="Faculty"/>
+</menu>

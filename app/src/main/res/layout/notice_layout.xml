@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="25dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/user"/>
+
+            <TextView
+                android:id="@+id/noticeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GMCA Collage"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/textColor"
+                android:textSize="16dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date:"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="@font/regular"
+                android:textSize="@dimen/text_size0"
+                android:textColor="@color/textColor"/>
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23 Apr 24"
+
+                android:fontFamily="@font/regular"
+                android:textSize="@dimen/text_size0"
+                android:textColor="@color/textColor"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time:"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/regular"
+                android:textSize="@dimen/text_size0"
+                android:textColor="@color/textColor"/>
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:00"
+                android:fontFamily="@font/regular"
+                android:textSize="@dimen/text_size0"
+                android:textColor="@color/textColor"/>
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title:"
+        android:textColor="@color/textColor"
+        android:layout_marginVertical="@dimen/text_margin"
+        android:textSize="16dp"/>
+        <TextView
+             android:id="@+id/noticeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:text="Academic libraries are the libraries which serve the institutions of higher learning"
+            android:textColor="@color/textColor"
+            android:layout_marginVertical="@dimen/text_margin"
+            android:textSize="16dp"/>
+</LinearLayout>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

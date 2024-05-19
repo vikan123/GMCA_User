@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">GMCA_User</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/bold</string>
+    <string name="light" tools:ignore="ReferenceType">@font/light</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/regular</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact">+91 7922930176</string>
+    <string name="email">gmcacmnagar@gmail.com</string>
+    <string name="location">Government MCA College,
+K. K. Shashtri Education Campus,
+Maninagar (East),
+Ahmedabad - 380008, INDIA</string>
+
+    <string name="about_collage">Government MCA college Maninagar, Ahmedabad is the first Government MCA College in Gujarat. It was established in June 2012 with facilities to run Master of Computer Application. In the year 2012, course was introduced with an intake of 60 students. The college has well-established Central Learning resource centers like Central library, Central Computer Centre, Entrepreneurship Development Cell, Continuing Education Centre and Physical Education Section.</string>
+
+</resources>
